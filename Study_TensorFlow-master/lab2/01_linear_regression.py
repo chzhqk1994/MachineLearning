@@ -22,7 +22,7 @@ sess=tf.Session()
 sess.run(init)
 
 for step in range(2001): # 0부터 시작하며 2001은 포함되지 않는다.  즉 0부터 2000 까지 반복된다.
-    sess.run(train)
+    sess.run(train) #연산은 여기서 끝나지만 W와 b의 값을 찾아가는 과정을 시각적으로 나타내기 위해 아래의 코드를 작성한다
     if step%20==0:
         print (step, sess.run(cost), sess.run(W), sess.run(b))
         # print('{:4} {} {} {}'.format(step, sess.run(cost), sess.run(W), sess.run(b)))       # 똑같이 출력되는데 뭔가 다르다 소숫점이 쥰내 길게 나옴
