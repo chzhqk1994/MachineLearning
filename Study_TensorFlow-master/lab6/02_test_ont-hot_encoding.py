@@ -13,12 +13,12 @@ Y = tf.placeholder("float", [None, 3])
 W = tf.Variable(tf.zeros([3, 3]))
 
 # matrix shape X=[8, 3], W=[3, 3]
-hypothesis = tf.nn.softmax(tf.matmul(X, W))
+hypothesis = tf.nn.softmax(tf.matmul(X, W))  # X*W 를 softmax 연산처리하여 hypothesis에 넣음
 
 learning_rate = 0.001
 
-cost = tf.reduce_mean(-tf.reduce_sum(Y * tf.log(hypothesis), reduction_indices=1))
-optimizer = tf.train.GradientDescentOptimizer(learning_rate).minimize(cost)
+cost = tf.reduce_mean(-tf.reduce_sum(Y * tf.log(hypothesis), reduction_indices=1)) # softmax처리된 hypothesis를 cross-entropy cost 에 넣고 실행. 근데 reduction 이건 왜하는거지
+optimizer = tf.train.GradientDescentOptimizer(learning_rate).minimize(cost)  # GradientDescent 알고리즘 실행
 
 init = tf.global_variables_initializer()
 
