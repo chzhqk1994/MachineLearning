@@ -1,0 +1,2239 @@
+[33mcommit 0295d71e0fb4c55ed10b467dc061ff02efd78211[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sat May 27 18:50:29 2017 +0800
+
+    updated x-xor
+
+[33mcommit 3825615267eafa5795adf63dad3276da6eb18156[m
+Author: yonghwee.kim <fklh15@naver.com>
+Date:   Fri May 26 03:28:56 2017 +0900
+
+    fix: dropout layers in lab-10-7-mnist_nn_higher_level_API.py (#170)
+    
+    - Layers were not connected correctly
+
+[33mcommit 566d8514cecd560f7dbe4264509b665d63aeac31[m
+Author: EunSik Park <kongse92@gmail.com>
+Date:   Fri May 19 13:05:08 2017 +0900
+
+    Modify MultiRNNCell problems (#164)
+    
+    * Modify MultiRNNCell problems
+    
+    * Modify duplicated code
+
+[33mcommit 35e12d4b809c54bca1677d21c92a220e64a3e549[m
+Author: Mo Kweon <kkweon@gmail.com>
+Date:   Thu May 18 21:03:41 2017 -0700
+
+    fix: GradientDescent --> AdamOptimizer (#168)
+
+[33mcommit 17a39647412ae400a2f2e9a953aac220a2f99beb[m
+Author: antil1 <loveskywhy@naver.com>
+Date:   Wed May 17 20:06:20 2017 +0900
+
+    Update lab-12-5-rnn_stock_prediction.py (#166)
+    
+    change variable name learing_rate to learning_rate
+
+[33mcommit 10956e513adb66fe02d50889e7fa98b06a16090b[m
+Author: astriker <astriker@gmail.com>
+Date:   Mon May 15 05:26:48 2017 +0900
+
+    Update lab-12-5-rnn_stock_prediction.py (#165)
+    
+    Modify rmse bug in Test Step
+
+[33mcommit c2d19cbc3c23f5118960939f85f6dc6c4553bb95[m
+Author: Jeff-HOU <1085363891@qq.com>
+Date:   Sat May 13 11:16:40 2017 +0800
+
+    Exercise answer and style changes (#163)
+    
+    * Small typos corrected.
+    
+    * Exercise answer
+    
+    * Remove useless variable
+    
+    * Change some comments, change some style
+
+[33mcommit e3f39aa474b93812e9bd5df9cb810d49497405e7[m
+Author: Jeff-HOU <1085363891@qq.com>
+Date:   Tue May 9 14:40:51 2017 +0800
+
+    Small typos corrected. (#160)
+
+[33mcommit 962ae26711335a09592feb2b1ef4e0294e482d69[m
+Author: skyer9 <skyer9@gmail.com>
+Date:   Tue May 9 12:45:00 2017 +0900
+
+    add klab-13-2-mnist_tensorboard.py. (#156)
+
+[33mcommit b00a345e02ca751bdfcca73787aa5fd97e56bd8b[m
+Author: Dong-ryull Shin / Ryan <1982sdr@hanmail.net>
+Date:   Tue May 9 12:44:21 2017 +0900
+
+    Small typo in lab-01-basics.ipynb (#123) (#158)
+    
+    Thank you!
+
+[33mcommit 87435bafea52041157b8d72ccfef2948b02eb1bd[m
+Author: HongCheng <kwchenghong@gmail.com>
+Date:   Thu May 4 21:47:53 2017 +0900
+
+    delete the "# This example does not work" at line2 (#151)
+
+[33mcommit 49fb63a8936e855096665f8e9e3b0bbe8d97b7ca[m
+Author: HongCheng <kwchenghong@gmail.com>
+Date:   Thu May 4 21:20:07 2017 +0900
+
+    remove the bad comment for issue #138 (#147)
+
+[33mcommit 66bf5dd76f76e17ebf2e9a706e466543ace3f5fa[m
+Author: HongCheng <kwchenghong@gmail.com>
+Date:   Thu May 4 21:19:42 2017 +0900
+
+    remove the bad comment for issue #138 (#146)
+
+[33mcommit 54b339e87e2d7d4e695fbb5639f94d17a6c4dd03[m
+Author: HongCheng <kwchenghong@gmail.com>
+Date:   Thu May 4 21:18:35 2017 +0900
+
+    remove the bad comment (#145)
+
+[33mcommit 9875acfd8c83fd3372f3449e01602c6f099aa395[m
+Author: skyer9 <skyer9@gmail.com>
+Date:   Thu May 4 06:41:49 2017 +0900
+
+    modify learning rate for linear regression. (#143)
+
+[33mcommit 85b8d20cc6086fe4d72f7093947f108498002d9d[m
+Author: skyer9 <skyer9@gmail.com>
+Date:   Sun Apr 30 16:36:17 2017 +0900
+
+    remove UserWarning(remove learning rate from compile()) (#133)
+    
+    1. Explicitly define an optimizer
+
+[33mcommit 25ac4a7514d927c1e595ea3713f9fc7ab0f96748[m
+Author: skyer9 <skyer9@gmail.com>
+Date:   Sat Apr 29 22:49:55 2017 +0900
+
+    add Keras/klab-10-2-mnist_nn.py (#139)
+
+[33mcommit eac93d1a969b3e5579e2c7929fe28890a0057d35[m
+Author: JEONG HYUN SEOK <nicewook@hotmail.com>
+Date:   Wed Apr 26 05:14:09 2017 +0900
+
+    supplement code for "Out of Memory" issue (#131)
+    
+    fix: OOM issue
+    
+    MNIST.test data set is too big for some system so that makes Out of
+    Memory issue.
+    Commented code split dataset and predict to avoid "OOM" issue
+    
+    1. Leave comments referring to the optional file
+    2. Add the optional file (lab-11-X-mnist_cnn_low_memory.py)
+
+[33mcommit a01716d1d28be0ddb3e57bdce13cb4d2c23e514c[m
+Author: skyer9 <skyer9@gmail.com>
+Date:   Sun Apr 23 22:22:02 2017 +0900
+
+    modify list indentation style. (#128)
+
+[33mcommit 8f59ee8a094064867a2ff2005112ec4967adfa15[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Fri Apr 21 06:56:01 2017 +0900
+
+    Fied typo
+
+[33mcommit 05f642b71213263186bc2a11d36b23b30b6576a6[m
+Author: surfertas <tasuku@gmail.com>
+Date:   Sun Apr 16 21:24:05 2017 +0900
+
+    Chainer/lab5and10 (#118)
+    
+    * Starting the lab related to the Chainer framework.
+    
+    * Adding Chainer labs 1-1 (basics) and 2(linear regression).
+    
+    * Adding lab 5-2 logistic regression (mnist) and lab 10-2 nn (mnist)
+
+[33mcommit 27450fcc4f87e0b6a1e6fbbb50020e129570c3e4[m
+Author: Mo Kweon <kkweon@gmail.com>
+Date:   Sat Apr 15 14:50:28 2017 -0700
+
+    refactor: PEP8 FLAKE8 (#127)
+    
+    1. Format to PEP8
+    2. Remove unused var/package
+
+[33mcommit f69c95fed2fbefa0c2e0a12e2728a75fbcc8b34b[m
+Author: Mo Kweon <kkweon@gmail.com>
+Date:   Sat Apr 15 14:34:34 2017 -0700
+
+    Revert "fix: requirements.txt (#125)" (#126)
+    
+    This reverts commit 7c50009c61c3acbf56d886d71f79b62d6c0f189a.
+
+[33mcommit 7c50009c61c3acbf56d886d71f79b62d6c0f189a[m
+Author: Mo Kweon <kkweon@gmail.com>
+Date:   Sat Apr 15 14:29:20 2017 -0700
+
+    fix: requirements.txt (#125)
+    
+    1. add torch, chainer
+    2. drop pylint
+    3. update Keras
+
+[33mcommit 6524080473e4bc603c5f78d47146df21521699ff[m
+Author: Mo Kweon <kkweon@gmail.com>
+Date:   Sat Apr 15 14:21:48 2017 -0700
+
+    fix: travis ci (#124)
+    
+    1> drop pylint
+
+[33mcommit c066e194f105a9924973e5556122e8d3323e606b[m
+Author: JaeSeok <qpark99@users.noreply.github.com>
+Date:   Sun Apr 16 06:16:06 2017 +0900
+
+    add klab 07 #120 (#121)
+    
+    * add klab 07 #120
+    
+    * update klab-07-3-linear_regression_min_max.py
+    using sklearn MinMaxScaler instead custom MinMaxScaler function
+
+[33mcommit ad675d0276dd46819210e39b4510e3f7bc4a8a27[m
+Author: Xingjian Shi <xshiab@ust.hk>
+Date:   Fri Apr 14 05:38:45 2017 +0800
+
+    add lab-12-5 (#117)
+
+[33mcommit a67707913d7b3a42979bb0910688d5b72689bac2[m
+Author: surfertas <tasuku@gmail.com>
+Date:   Thu Apr 13 21:45:48 2017 +0900
+
+    Chainer/lab1and2 (#115)
+    
+    * Starting the lab related to the Chainer framework.
+    
+    * Adding Chainer labs 1-1 (basics) and 2(linear regression).
+
+[33mcommit 2f5a50623bb0f6a58ee3031b6608c9fdbe04ebcf[m
+Author: Xingjian Shi <xshiab@ust.hk>
+Date:   Thu Apr 13 19:24:09 2017 +0800
+
+    [MXNet] Simplify regression examples using fit + add logistic regression and softmax classification (#114)
+    
+    * Revise mxlab-04-3, 12-4 + add mxlab-05-2, 06-2
+    
+    * add result
+
+[33mcommit 0e9f26c35a2dcda57379a529b273690cbdf59aff[m
+Author: surfertas <tasuku@gmail.com>
+Date:   Thu Apr 13 11:32:46 2017 +0900
+
+    Starting the lab related to the Chainer framework. (#111)
+
+[33mcommit 6d0f03a95d135b0c7d33c585af25a481582bb96c[m
+Author: Xingjian Shi <xshiab@ust.hk>
+Date:   Wed Apr 12 22:28:34 2017 +0800
+
+    [MXNet] Add lab-04-3 and lab-12-4 (#110)
+    
+    * lab 11
+    
+    mxnet support first attemp
+    
+    fix lab 11
+    
+    fix lab 11
+    
+    fix lab 11
+    
+    fix lab 11
+    
+    fix lab 11
+    
+    fix
+    
+    fix lab-11
+    
+    fix
+    
+    Add readme
+    
+    update readme
+    
+    * lab 11
+    
+    mxnet support first attemp
+    
+    fix lab 11
+    
+    fix lab 11
+    
+    fix lab 11
+    
+    fix lab 11
+    
+    fix lab 11
+    
+    fix
+    
+    fix lab-11
+    
+    fix
+    
+    Add readme
+    
+    update readme
+    
+    add lab-11-5
+    
+    fix lab-11-2
+    
+    fix 11-5
+    
+    fix 11-5
+    
+    * update
+    
+    * add new line
+    
+    * add lab-04-3
+    
+    * remove tf line
+    
+    * add lab-12-4
+    
+    * add data
+    
+    * add output reference
+    
+    * using forward_backward directly
+
+[33mcommit 1c83655e6f5cb4395d578561cb8d66e534cae667[m
+Author: Min-je Choi <devnote5676@naver.com>
+Date:   Wed Apr 12 07:17:58 2017 +0900
+
+    Create/pytorch/lab12 (#108)
+    
+    * Add lab-12-1-hello-rnn.py for PyTorch
+    
+    * Add lab-12-1,2,4,5 for PyTorch
+    * imported from Tensorflow codes in repo
+
+[33mcommit 3036e7cb2c0f0f1042814d0b3fece3d140120b98[m
+Author: Xingjian Shi <xshiab@ust.hk>
+Date:   Wed Apr 12 05:20:23 2017 +0800
+
+    [WIP] Add MXNet examples (#106)
+    
+    * lab 11
+    
+    mxnet support first attemp
+    
+    fix lab 11
+    
+    fix lab 11
+    
+    fix lab 11
+    
+    fix lab 11
+    
+    fix lab 11
+    
+    fix
+    
+    fix lab-11
+    
+    fix
+    
+    Add readme
+    
+    update readme
+    
+    * update
+    
+    * add new line
+
+[33mcommit af02f4bffabb6bedeb7f0dadf59085dbf01242d3[m
+Author: togheppi <licslegend@gmail.com>
+Date:   Mon Apr 10 15:23:33 2017 +0900
+
+    add: lab-11 PyTorch codes (#104)
+    
+    * Added lab-10 codes
+    
+    PyTorch codes for lab-10-1 ~ lab-10-5 are added.
+    
+    Thank you.
+    
+    * run autopep8 check
+    
+    * Added lab-11 codes
+
+[33mcommit 3332c067f38967feeca6eb151b275ec65f51a47d[m
+Author: Mo Kweon <kkweon@gmail.com>
+Date:   Sun Apr 9 15:10:29 2017 -0700
+
+    add: CONTRIBUTING guide (#102)
+    
+    1. It's a guideline to let people know how to contribute
+
+[33mcommit 07621868212c7b36ca3f0f0cc02618902dcacd5d[m
+Author: togheppi <licslegend@gmail.com>
+Date:   Sun Apr 9 22:33:24 2017 +0900
+
+    Added lab-10 codes (#100)
+    
+    * Added lab-10 codes
+    
+    PyTorch codes for lab-10-1 ~ lab-10-5 are added.
+    
+    Thank you.
+    
+    * run autopep8 check
+
+[33mcommit 4abd353993b0f0af8cc1720834b0dc85b2b3c084[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Apr 9 14:54:01 2017 +0800
+
+    Need one ensemble. Also class and layers sound better.
+
+[33mcommit 6e6965c37211996076170f418ad4102f479d4016[m
+Author: skyer9 <skyer9@gmail.com>
+Date:   Sun Apr 9 15:50:34 2017 +0900
+
+    change list indentation style. (#101)
+    
+    * modify code for compatability with keras 2.x.
+    
+    * change requirement Keras 1.2.2 to 2.0.2.
+    
+    * fix Travis CI Build Error(First try)
+    
+    * Fix Travis CI Build Error(Second try).
+    
+    * Fix Travis CI Build Error(Third try).
+    
+    * Fix Travis CI Build Error(Forth try).
+    
+    * change list indentation style.
+    
+    * sync with original repo.
+
+[33mcommit 54d6ce89eb2c67385d34672a0ab8fa42500994fc[m
+Merge: 94b68c3 35cbe83
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Apr 9 08:46:39 2017 +0800
+
+    Merge branch 'master' of github.com:hunkim/DeepLearningZeroToAll
+
+[33mcommit 94b68c384efba1ae1525275cf671916a484ad185[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Apr 9 08:46:24 2017 +0800
+
+    Updated CNN basics
+
+[33mcommit 35cbe83d3bb27233b7f9a9cf5053cb33ea202a0b[m
+Author: Lewis Kim (Sunghyun Kim) <kshr2d2@gmail.com>
+Date:   Sun Apr 9 00:43:09 2017 +0900
+
+    change name of W_val and cost_val  (#99)
+    
+    * Change Variable name of W_val and cost_val
+    
+    W_val and cost_val to W_history and cost_history
+    To understand the purpose of variables easily
+    
+    * Revert "Change Variable name of W_val and cost_val"
+    
+    This reverts commit d75f37ffb70683fdd17040cb946b252640919a0d.
+    
+    * Change Variable name of W_val and cost_val
+    
+    W_val and cost_val to W_record and cost_record
+    To understand the purpose of variables easily
+    
+    * Change name of W_val and cost_val
+    
+    W_val and cost_val to W_record and cost_record
+    To understand the purpose of variables easily
+    
+    #99 wasn't refactored by mistake
+    
+    * Change W_val cost_val
+    
+    W_val and cost_val to W_history and cost_history
+    To understand the purpose of variables easily
+
+[33mcommit db3c3a543b1301187c477df82c537f151ac099e1[m
+Author: piper <jihoBak0@gmail.com>
+Date:   Sat Apr 8 08:43:19 2017 +0900
+
+    Keras 2 API support #87 (#96)
+    
+    - change 'Convolution2D' to 'Conv2D'
+    - change 'nb_epoch' to 'epochs'
+    
+            modified:   klab-04-3-file_input_linear_regression.py
+            modified:   klab-05-2-logistic_regression_diabetes.py
+            modified:   klab-09-2-xor-nn.py
+            modified:   klab-11-1-cnn_mnist.py
+
+[33mcommit d15527439fee55a186e9feead3137bac8ae96894[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sat Apr 8 03:45:45 2017 +0800
+
+    reshape (#94)
+
+[33mcommit fc9566fa1f35ab14938529286ea45a95ab4e3054[m
+Author: kaka120011 <kaka120011@gmail.com>
+Date:   Sat Apr 8 04:44:27 2017 +0900
+
+    Update lab-03-X-minimizing_cost_tf_gradient.py (#95)
+    
+    Update parameters of compute_gradients for TypeError.
+
+[33mcommit f93324098d42507ea32930f3383835f8c96fe914[m
+Author: piper <jihoBak0@gmail.com>
+Date:   Fri Apr 7 21:28:49 2017 +0900
+
+    Add Lab 10 MNIST and High-level TF API(dropout, batchnorm, xavier) (#93)
+
+[33mcommit a25437b7dddf4302fcaee734b075b8c8100d79be[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Fri Apr 7 11:09:15 2017 +0800
+
+    Revert "Lab 10 MNIST and High-level TF API(dropout, batchnorm, xavier) (#89)" (#92)
+    
+    This reverts commit de74aab4c7932471f0e3383a3d98a142a3b1f65a.
+
+[33mcommit de74aab4c7932471f0e3383a3d98a142a3b1f65a[m
+Author: piper <jihoBak0@gmail.com>
+Date:   Fri Apr 7 09:49:37 2017 +0900
+
+    Lab 10 MNIST and High-level TF API(dropout, batchnorm, xavier) (#89)
+    
+    * Lab 10 MNIST and High-level TF API(dropout, batchnorm, xavier)
+    
+    * PyTorch version lab codes  (#88)
+    
+    * Added PyTorch
+    
+    PyTorch code based on TF-Lab code
+    Rest of lab codes will be added.
+    
+    * Update lab-02-1&2-linear_regression.py
+    
+    * Update lab-04-2-multi_variable_linear_regression.py
+    
+    * Update lab-04-3-file_input_linear_regression.py
+    
+    * Update lab-05-1-logistic_regression.py
+    
+    * Update lab-05-2-logistic_regression_diabetes.py
+    
+    * Update lab-06-1-softmax_classifier.py
+    
+    * Update lab-06-2-softmax_zoo_classifier.py
+    
+    * Update lab-09-1-xor.py
+    
+    * Update lab-09-2-xor-nn.py
+    
+    * add Lab 10 MNIST and High-level TF API(dropout, batchnorm, xavier)
+    
+    * add Lab 10 MNIST and High-level TF API(dropout, batchnorm, xavier)
+    
+    * Remove Pytorch files
+
+[33mcommit 7e956401bdb17c1c1442940ffd7697a4376e91a8[m
+Author: togheppi <licslegend@gmail.com>
+Date:   Fri Apr 7 04:43:00 2017 +0900
+
+    PyTorch version lab codes  (#88)
+    
+    * Added PyTorch
+    
+    PyTorch code based on TF-Lab code
+    Rest of lab codes will be added.
+    
+    * Update lab-02-1&2-linear_regression.py
+    
+    * Update lab-04-2-multi_variable_linear_regression.py
+    
+    * Update lab-04-3-file_input_linear_regression.py
+    
+    * Update lab-05-1-logistic_regression.py
+    
+    * Update lab-05-2-logistic_regression_diabetes.py
+    
+    * Update lab-06-1-softmax_classifier.py
+    
+    * Update lab-06-2-softmax_zoo_classifier.py
+    
+    * Update lab-09-1-xor.py
+    
+    * Update lab-09-2-xor-nn.py
+
+[33mcommit ccdd63c466cd19939b31d58ff6a19fe2d1d797dd[m
+Author: davinnovation <davinnovation@gmail.com>
+Date:   Thu Apr 6 22:01:21 2017 +0900
+
+    keras code PR (#81)
+    
+    * - add klab-10-1-mnist_softmax.py based on lab-10-1-mnist_softmax.py ( tested on Ubuntu 14.04 )
+    
+    * Update klab-10-1-mnist_softmax.py
+    
+    - Update to version Keras 2.0.2
+    - Tested on Ubuntu 16.04
+
+[33mcommit 4f144969e7d0e25c4adfed7e8554cfa35c2030ae[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Apr 4 03:33:53 2017 +0800
+
+    Added mxnet
+
+[33mcommit cd5786019f247863d198325546b9c707ec2f9041[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Apr 3 12:06:15 2017 +0800
+
+    Changed file names
+
+[33mcommit 7aa833c15fd4f222c1a8736fcbd0ce110791f909[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Apr 3 08:50:25 2017 +0800
+
+    renamed numbers and touch on tensorboard
+
+[33mcommit 0725ccbea27a166f99b693d726963dc56d41978c[m
+Merge: d5c485e aa66e8f
+Author: Mo Kweon <kkweon@gmail.com>
+Date:   Sun Apr 2 04:37:12 2017 -0700
+
+    Merge pull request #50 from GzuPark/patch-27
+    
+    Update lab-13-3-mnist_save_restore.py
+
+[33mcommit d5c485e37680cf5a8f2e1b7b1baf2456079f1f01[m
+Author: KYUNG MO KWEON <kkweon@gmail.com>
+Date:   Sun Apr 2 04:30:57 2017 -0700
+
+    fix: travis-ci
+    
+    1. pylint does not support py3.6...
+
+[33mcommit 56a4a6cb956441c5d036fecbe11e7b1b57dcca38[m
+Author: KYUNG MO KWEON <kkweon@gmail.com>
+Date:   Sun Apr 2 04:27:06 2017 -0700
+
+    fix: Keras v2 support
+
+[33mcommit 1bef4c7b532b4af86e0dce759fd31b69f2f39394[m
+Author: KYUNG MO KWEON <kkweon@gmail.com>
+Date:   Sun Apr 2 04:22:38 2017 -0700
+
+    add: pylint
+
+[33mcommit b1188939cd9b1494dc2fc52d6339efb53b4272d3[m
+Author: KYUNG MO KWEON <kkweon@gmail.com>
+Date:   Sun Apr 2 04:18:43 2017 -0700
+
+    fix: Travis-ci script
+
+[33mcommit e2cc7f4c2aa2a14bd80294011a928fb4fe27c133[m
+Author: KYUNG MO KWEON <kkweon@gmail.com>
+Date:   Sun Apr 2 03:55:48 2017 -0700
+
+    feat: Python2 Support(print)
+
+[33mcommit 8a8a5a3b84aff24da021a58fce7968b7b59c97c4[m
+Author: skyer9 <skyer9@gmail.com>
+Date:   Sun Apr 2 16:23:59 2017 +0900
+
+    several commit in this PR (#80)
+    
+    * modify code for compatability with keras 2.x.
+    
+    * change requirement Keras 1.2.2 to 2.0.2.
+    
+    * fix Travis CI Build Error(First try)
+    
+    * Fix Travis CI Build Error(Second try).
+    
+    * Fix Travis CI Build Error(Third try).
+    
+    * Fix Travis CI Build Error(Forth try).
+
+[33mcommit be1b26c0c2bb5fbc435047424a5b4e257416d489[m
+Author: Dongjun Lee <redongjun@gmail.com>
+Date:   Sat Apr 1 11:12:33 2017 +0900
+
+    XOR Tensorboard (#77)
+    
+    * Added XOR Tensorboard
+    Updated .gitignore file to ignore logs directory
+    
+    * Renamed lab-09-7 to lab-09-3
+
+[33mcommit 255fac71697527c36f801504c52645719c5db085[m
+Author: Mo Kweon <kkweon@gmail.com>
+Date:   Fri Mar 31 03:17:10 2017 -0700
+
+    Feature/batchnorm (#76)
+    
+    * refactor: add a FC layer
+    
+    1. Add a FC Layer
+      - #73
+    2. Add a numpy doc style
+    3. Explicitly define an activation function in LSTMCell
+      - default is tanh
+    4. Change to AdamOptimizer
+    5. Use `with` statement else the session must be closed explicitly
+    6. No linebreak for the 79 char limit
+    
+    * refactor: nn.tanh -> tanh
+    
+    * add: MNIST Batchnormalization layer
+    
+    * fix: image
+
+[33mcommit 293a77a6ff94cfc80bc976a539fe974b2766a646[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Mar 26 08:59:25 2017 +0900
+
+    FC layers
+
+[33mcommit b7bd714c626e7864b5ad6bb16963d43002882873[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Mar 26 07:45:39 2017 +0900
+
+    Added FC after LSTM
+
+[33mcommit 4333e7fa9c68b99c9a987b5f935ef929ae56889e[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Mar 26 07:31:13 2017 +0900
+
+    FC as a default
+
+[33mcommit f06fda89762854f42595d809f45b76c3c8a64400[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Mar 26 07:30:34 2017 +0900
+
+    Added layers
+
+[33mcommit 1271fad38f07c7affc98adfb6760073d56c6bd1b[m
+Author: Mo Kweon <kkweon@gmail.com>
+Date:   Sat Mar 25 15:17:12 2017 -0700
+
+    refactor: add a FC layer after RNN (#74)
+    
+    * refactor: add a FC layer
+    
+    1. Add a FC Layer
+      - #73
+    2. Add a numpy doc style
+    3. Explicitly define an activation function in LSTMCell
+      - default is tanh
+    4. Change to AdamOptimizer
+    5. Use `with` statement else the session must be closed explicitly
+    6. No linebreak for the 79 char limit
+    
+    * refactor: nn.tanh -> tanh
+
+[33mcommit d20edbdf8e3b768f1c541bc5ad3493c8e2e012ef[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sat Mar 25 14:28:32 2017 +0900
+
+    Added logits for loss
+
+[33mcommit 0f49c86541484c7b70731721695ed3ae88ca8211[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Fri Mar 24 19:51:30 2017 +0900
+
+    Rename softmax to FC
+
+[33mcommit 5d6b0cde2ff78fe11980ae062d34ed14a711e9d2[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Wed Mar 22 06:40:18 2017 +0900
+
+    Remove W.eval for simplicity
+
+[33mcommit 34e8b8e80cf4f97b2285d36317f3592fedb78fd5[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Mar 19 10:37:46 2017 +0900
+
+    Update tensor handling
+
+[33mcommit c2d037c92ba5b1d7c4605d422c145054526f879d[m
+Merge: 673f910 ee1340a
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Mar 19 10:37:30 2017 +0900
+
+    Merge branch 'master' of github.com:hunkim/DeepLearningZeroToAll
+
+[33mcommit 673f91003224d5ee42c9d313da8deca04ac8b830[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Mar 19 10:29:00 2017 +0900
+
+    Added lab08 notebook
+
+[33mcommit ee1340ae402ff8d3fe84f62e9cd6c194503ca43f[m
+Author: BaekSeungYun <bkryusim@gmail.com>
+Date:   Fri Mar 17 21:54:07 2017 +0900
+
+    Update lab-03-2-minimizing_cost_gradient_update.py (#70)
+    
+    Changed tf.reduce_sum to tf.reduce_mean.
+    About issue #69
+
+[33mcommit a6142b64a650127e21c16fc7c5f44934a8668419[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Fri Mar 17 09:41:44 2017 +0900
+
+    Added Ensemble results
+
+[33mcommit 3afa6aee6ed23b8c287aa41309cddb0956cc176b[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Fri Mar 17 06:26:01 2017 +0900
+
+    Added class and ensemble
+
+[33mcommit 923e29ac8203062518fba20438a69656accb7261[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Thu Mar 16 19:33:31 2017 +0900
+
+    Updated lab07 files
+
+[33mcommit d56c53a3510d07c3085172d91a29f662d065c9e2[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Thu Mar 16 16:55:54 2017 +0900
+
+    Updated code for lab7
+
+[33mcommit 444f44b705ea37b26f15a20d47567ddf17bd38fd[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Thu Mar 16 16:19:14 2017 +0900
+
+    Updated code for lab7
+
+[33mcommit e197cbfea3a80cac8af1ca6f5c147de83c78f94a[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Thu Mar 16 12:49:32 2017 +0900
+
+    Put advanced ones bottom
+
+[33mcommit 15b40a65dce6e5164c3f2b9204898c731ea173f7[m
+Author: maestrojeong <legend4020@snu.ac.kr>
+Date:   Thu Mar 16 10:14:48 2017 +0900
+
+    Update lab-08-tensor_transformations.py (#68)
+    
+    'tf.transpose ' is added before tf.shape
+    identity transformation with tf.transpose
+
+[33mcommit 0a04c0f7931db184d51f29e8687e03bba6686af7[m
+Merge: 248b716 c52cfc7
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Thu Mar 16 08:36:57 2017 +0900
+
+    Merge branch 'master' of github.com:hunkim/DeepLearningZeroToAll
+
+[33mcommit 248b716a3ec80e5e73a288cc3117481f879f47a5[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Thu Mar 16 08:36:28 2017 +0900
+
+    Added lab 08
+
+[33mcommit c52cfc72abe0e28122e2d87d2267148588985c6d[m
+Author: LeeTaeMin <dnflxoals@gmail.com>
+Date:   Tue Mar 14 21:55:37 2017 +0900
+
+    Updates for unity and understandability (#67)
+    
+    * Update lab-10-1-mnist_softmax.py
+    
+    * Update lab-10-2-mnist_nn.py
+    
+    * Update lab-10-3-mnist_nn_xavier.py
+    
+    * Update lab-10-4-mnist_nn_deep.py
+    
+    * Update lab-10-5-mnist_nn_dropout.py
+    
+    * Update lab-11-1-mnist_cnn.py
+    
+    * Update lab-11-2-mnist_deep_cnn.py
+    
+    * Update lab-13-1-mnist_using_scope.py
+    
+    * Update lab-13-2-mnist_tensorboard.py
+    
+    * Update lab-13-3-mnist_save_restore.py
+
+[33mcommit ad51bdfa83ca3b7b2dfa8b868b7f1d91e77a6d28[m
+Author: LeeTaeMin <dnflxoals@gmail.com>
+Date:   Tue Mar 14 18:36:47 2017 +0900
+
+    Update lab-11-1-mnist_cnn.py (#66)
+    
+    I think it's probably W3, not W2.
+
+[33mcommit 5f0b64204b7594d5789d222bb2fa663747137b95[m
+Author: LeeTaeMin <dnflxoals@gmail.com>
+Date:   Tue Mar 14 14:30:35 2017 +0900
+
+    Update lab-11-1-mnist_cnn.py and lab-11-2-mnist_deep_cnn.py (#65)
+    
+    * Update lab-11-1-mnist_cnn.py
+    
+    I think you probably originally tried to express it this way.
+    
+    print('Learning started. It takes sometime.')
+    c, _ = sess.run([cost, optimizer], feed_dict=feed_dict)
+    
+    * Update lab-11-2-mnist_deep_cnn.py
+    
+    I think you probably originally tried to express it this way.
+    
+    print('Learning started. It takes sometime.')
+    c, _ = sess.run([cost, optimizer], feed_dict=feed_dict)
+
+[33mcommit ab46672590ecef6a8f4a669bbe876db88de35ecd[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Mar 14 10:23:30 2017 +0900
+
+    Updated lab 05 for lectures
+
+[33mcommit ca710b0dd5598d0c2e987c090f21195c82291df2[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Mar 13 21:12:27 2017 +0900
+
+    Added results
+
+[33mcommit 52b6a36993a04f0ea6652c646b70197e14196530[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Mar 13 19:59:15 2017 +0900
+
+    Added TF csv reader
+
+[33mcommit 53fb71f00544848e16fd8078aa1e3a6625dd1e14[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Mar 13 13:51:24 2017 +0900
+
+    Added slide locations
+
+[33mcommit f293c86d9e8264fef1c615eb8f68a32c69347a55[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Mar 13 07:58:03 2017 +0900
+
+    more interesting ecamples
+
+[33mcommit 97a2b037083acc1acccc83806577dc8babf41cc1[m
+Merge: cc0d0c3 520002e
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sat Mar 11 20:26:48 2017 +0900
+
+    Merge branch 'master' of github.com:hunkim/DeepLearningZeroToAll
+
+[33mcommit cc0d0c327eac44cdf72602b859f3cd9f08d30a7b[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sat Mar 11 17:01:57 2017 +0900
+
+    Use Adam
+
+[33mcommit 520002ee25dc44e1240d2f78593336033dfab338[m
+Author: Mo Kweon <kkweon@gmail.com>
+Date:   Fri Mar 10 01:19:31 2017 -0800
+
+    refactor: MinMaxScaler, doc, pep (#59)
+    
+    1. MinMaxScaler
+      - Vectorization
+    
+    2. Doc change
+      - Data file: [Open, High, Low, Volume, Close]
+      - Old comments were in wrong order
+        - # Open, High Low, Close, Volume
+    
+    3. Do not follow Max Length 79
+      - for code readability
+      - it's okay to increase to 100
+      - https://www.python.org/dev/peps/pep-0008/#maximum-line-length
+
+[33mcommit 56248ca5d266a307ca8a24dc19df2cb3bbe242ce[m
+Merge: 030a630 773d4de
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Fri Mar 10 18:12:26 2017 +0900
+
+    Merge branch 'master' of github.com:hunkim/DeepLearningZeroToAll
+
+[33mcommit 773d4de82a757d4cf5002d6fb02ed3b8effc7e2a[m
+Author: LeeTaeMin <dnflxoals@gmail.com>
+Date:   Fri Mar 10 18:12:05 2017 +0900
+
+    Update lab-07-2-learning_rate_and_evaluation.py (#61)
+    
+    lab-07-2-learning_rate_and_evaluation.py에 epoch의 개념을 보여주는 코드를 추가했습니다.
+
+[33mcommit bbe8e988196f337aa56a35f26a09967cc2680dd1[m
+Author: LeeTaeMin <dnflxoals@gmail.com>
+Date:   Fri Mar 10 16:36:12 2017 +0900
+
+    lab-07-2/lab-09-1/lab-09-2/lab-09-3 (#60)
+    
+    * Update lab-07-2-learning_rate_and_evaluation.py
+    
+    epoch의 개념은 이 코드상에서는 도입되어있지 않습니다. 아마도 step을 표현하신 것 같습니다.
+    
+    * Update lab-09-1-xor.py
+    
+    DeepLearningZeroToAll 다른 코드들과의 통일성과 Readability, Understandability를 위해 shape를 추가하면 좋을 것 같습니다.
+    
+    * Update lab-09-2-xor-nn.py
+    
+    * Update lab-09-3-xor-nn-wide-deep.py
+
+[33mcommit 030a63070dd14d9e0cc2aecd841e5a5898adb420[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Thu Mar 9 13:45:29 2017 +0900
+
+    updated req
+
+[33mcommit 4a521c5b7111effe879fafd4b4e1df9d9352d41e[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Thu Mar 9 13:00:18 2017 +0900
+
+    Fix travis
+
+[33mcommit 5e929f1db189ebf10addca5fdefaaad4a99c8aae[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Thu Mar 9 12:50:36 2017 +0900
+
+    12-1 delete
+
+[33mcommit 5cf92a7bc4da5b000134cc202121246b2999270a[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Thu Mar 9 08:21:05 2017 +0900
+
+    Minor format changes
+
+[33mcommit 6e0548c2ae5d57b09c27d522a2ed75c5adfba16a[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Thu Mar 9 06:14:11 2017 +0900
+
+    minor comments update
+
+[33mcommit a92b25cbc95948c767972540ff3ba28bab0953bc[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Wed Mar 8 23:16:21 2017 +0900
+
+    Fixed 12-5
+
+[33mcommit 5a91ec4fe244a354dc065e643588164dc2070290[m
+Author: Jenny <jennykang@users.noreply.github.com>
+Date:   Wed Mar 8 21:53:32 2017 +0800
+
+    Rnn (#58)
+    
+    * progress on lab 12
+    
+    * updates on lab-12
+    
+    * added optimizer
+    
+    * updates on lab-12-1
+    
+    * updated lab-12-01
+    
+    * progress on lab-12-4-rnn_long_char
+    
+    * updates on lab-12-4
+    
+    * updates on lab-12-4
+    
+    * with softmax
+    
+    * fix softmax
+    
+    * added accuracy
+    
+    * added back multirnncell
+
+[33mcommit 374302c3115391f9e42582a9985ad2c8473596eb[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Wed Mar 8 19:35:58 2017 +0900
+
+    trivial changes
+
+[33mcommit 3cb9edcf7e87815e3f6c6d20f718061b56de01b5[m
+Author: Jongmin <jijupax@gmail.com>
+Date:   Wed Mar 8 13:49:40 2017 +0900
+
+    Update lab-12-5-rnn_stock_prediction.py (#56)
+    
+    to replace `MinMaxScaler` function, which we can use simply.
+
+[33mcommit 484f46347090080258f44497f78a5c59dffb3b39[m
+Author: Jongmin <jijupax@gmail.com>
+Date:   Wed Mar 8 13:48:53 2017 +0900
+
+    Update lab-12-6-rnn_softmax_stock_prediction.py (#57)
+    
+    to replace `MinMaxScaler` function, which we can use simply.
+
+[33mcommit abb97315e9d325a17d8641cf7aac05aece31dbac[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Mar 7 21:40:46 2017 +0800
+
+    Added deep and wide
+
+[33mcommit 95a281985254755fdb302a96a0730a475f872631[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Mar 6 21:28:36 2017 +0800
+
+    Minor updates
+
+[33mcommit e4351650706e69f8dffe0ce1895f9909fc1bc0c5[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Mar 6 11:56:59 2017 +0800
+
+    clean up the code
+
+[33mcommit 2c4ea3f2389852a0ca7ab50960ed8242fa62b5a7[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Mar 6 10:44:21 2017 +0800
+
+    Moved files to Kereas
+
+[33mcommit 1c6fe5c2f62a613a06c8d338d9713be6be1b475e[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Mar 6 10:43:24 2017 +0800
+
+    Moved files to Kereas
+
+[33mcommit 8018d61d53bdadc6cb662e88cf5412461f3cc71f[m
+Merge: 080d37a 139579e
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Mar 6 07:53:47 2017 +0800
+
+    Merge branch 'master' of github.com:hunkim/DeepLearningZeroToAll
+
+[33mcommit 080d37ac2e185535ecc445d16eec422b9b40e22a[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Mar 6 07:53:30 2017 +0800
+
+    Added more examples for lab01
+
+[33mcommit 139579e95cb144a0484f839a6512d321e110c8ef[m
+Author: Mo Kweon <kkweon@gmail.com>
+Date:   Fri Mar 3 22:03:19 2017 -0800
+
+    refactor: lab-09-5-sigmoid_back_prop.py (#55)
+    
+    * rename: softmax -> sigmoid
+    
+    * refactor: reference, comment, loss,
+    
+    1. Description of file was added
+      - add Prof. Sung KIM's slides and others
+      - define loss function and network architecture
+    
+    2. Loss function change
+      - In Prof. Sung KIM's slides, reduce_sum was used instead of
+      reduce_mean. In this file, it's also modified to sync the slides
+    
+    3. Refactor X, y variable name
+      - Scikit Learn's way to differentiate matrices and vectors
+      - When we say 'X", the naming convention is to use uppercase because it's a multidimensional matrix
+      - When we say "y", the naming convention is to use lowercase because it's a single vector
+    
+    * doc: reference change
+
+[33mcommit e6874786b929c75a374a598158e09ec48bb2c3ca[m
+Author: zeran4 <jehoonshin@naver.com>
+Date:   Sat Mar 4 14:30:13 2017 +0900
+
+    I have cleaned up the code. (#54)
+    
+    수행시간이 소요되는 sess.run( ) 사용을 줄이기 위해
+    중복이 되는 호출을 방지하고,
+    하드 코딩된 W feed값을 feed_W로 분리.
+
+[33mcommit f14d33a19f41606d05284e2693386aca385950e5[m
+Author: Mo Kweon <kkweon@gmail.com>
+Date:   Fri Mar 3 18:23:47 2017 -0800
+
+    refactor: variable init method updated (#53)
+    
+    tf.initialize_all_variables() method has been deprecated
+    use tf.global_variables_initializer() instead
+
+[33mcommit 605387ce20d75bd652ecde6006da9873c00f889d[m
+Author: Seung Hyun Jeon <shtowever@gmail.com>
+Date:   Sat Mar 4 07:14:12 2017 +0900
+
+    edit lab-02-3 (#52)
+
+[33mcommit 7d56cc9741d55e833b42cea93badd0511b9151ba[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Fri Mar 3 11:35:34 2017 +0800
+
+    Let's run only labs for now
+
+[33mcommit 072b005112969ebb581740ad4dffec364b49049a[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Fri Mar 3 06:37:52 2017 +0800
+
+    Added plot
+
+[33mcommit 9f18dfc5ee62c68cdcaf66cde0ffdca1942fd0fb[m
+Author: Jongmin <jijupax@gmail.com>
+Date:   Fri Mar 3 05:45:18 2017 +0900
+
+    Update lab-10-5-mnist_nn_dropout.py (#42)
+    
+    to delete useless "import numpy as np" code and to do annotation "import matplotlib.pyplot as plt" code.
+    Fixed 1st line for describing this file.
+
+[33mcommit 94bbdf2716528e014cc9b04ee36446ffbab97b66[m
+Author: Jongmin <jijupax@gmail.com>
+Date:   Fri Mar 3 05:42:54 2017 +0900
+
+    Update lab-11-2-mnist_deep_cnn.py (#44)
+    
+    to delete useless "import numpy as np" code and to do annotation "import matplotlib.pyplot as plt" code.
+    Fixed 1st line for describing this file.
+
+[33mcommit 5d35c96584a57d88c9e7e121e4ebe1b26d41f078[m
+Author: Jongmin <jijupax@gmail.com>
+Date:   Fri Mar 3 05:42:33 2017 +0900
+
+    Update lab-10-4-mnist_nn_deep.py (#41)
+    
+    to delete useless "import numpy as np" code and to do annotation "import matplotlib.pyplot as plt" code.
+    Fixed 1st line for describing this file.
+
+[33mcommit 7f30db8aa5233155cd3eeed3d99f9f8be8e792f3[m
+Author: Jongmin <jijupax@gmail.com>
+Date:   Fri Mar 3 05:42:11 2017 +0900
+
+    Update lab-10-2-mnist_nn.py (#39)
+    
+    to delete useless "import numpy as np" code and to do annotation "import matplotlib.pyplot as plt" code.
+    Fixed 1st line for describing this file.
+
+[33mcommit 98e1710da373ea3602dbee276830bed2f66704a8[m
+Author: Jongmin <jijupax@gmail.com>
+Date:   Fri Mar 3 05:38:56 2017 +0900
+
+    Update lab-11-1-mnist_cnn.py (#43)
+    
+    to delete useless "import numpy as np" code and to do annotation "import matplotlib.pyplot as plt" code.
+    Fixed 1st line for describing this file.
+
+[33mcommit a668ed17a0c1e05923073e2fc3b46b26d2669f4e[m
+Author: Jongmin <jijupax@gmail.com>
+Date:   Fri Mar 3 05:38:20 2017 +0900
+
+    Update lab-10-1-mnist_softmax.py (#38)
+    
+    to delete useless "import numpy as np" code and to do annotation "import matplotlib.pyplot as plt" code.
+    When I run this file every time, the result is slightly different. I guess from 41 to 45 lines, but I don't know exactly.
+
+[33mcommit cd9eaaa22332e39f9333c467b564f99c98eec1e7[m
+Author: Jongmin <jijupax@gmail.com>
+Date:   Fri Mar 3 05:35:37 2017 +0900
+
+    Update lab-10-3-mnist_nn_xavier.py (#40)
+    
+    * Update lab-10-3-mnist_nn_xavier.py
+    
+    to delete useless "import numpy as np" code and to do annotation "import matplotlib.pyplot as plt" code.
+    Fixed 1st line for describing this file.
+    
+    * Update lab-10-3-mnist_nn_xavier.py
+
+[33mcommit c19bb4194b06b7bf5691db6e9fbc371dcc020931[m
+Author: Jongmin <jijupax@gmail.com>
+Date:   Fri Mar 3 05:34:48 2017 +0900
+
+    Update lab-12-2-char-seq-rnn.py (#45)
+    
+    to add 1st line for describing this file.
+
+[33mcommit 1a39aa10a765bc89d503433c7b8fd169ba959331[m
+Author: Jongmin <jijupax@gmail.com>
+Date:   Fri Mar 3 05:30:53 2017 +0900
+
+    Update lab-12-3-char-seq-softmax-only.py (#46)
+    
+    to add an annotation for describing this file.
+
+[33mcommit 54b5ddcdb5fe8e61c2f41a38f5b2cde3192fe8e2[m
+Author: Jongmin <jijupax@gmail.com>
+Date:   Fri Mar 3 05:26:42 2017 +0900
+
+    Update lab-04-3-file_input_linear_regression.py (#30)
+    
+    to avoid ineffective operation when the loop works.
+
+[33mcommit 042d21da0f5bfddff1ed95506e799bbe57664764[m
+Author: Jongmin <jijupax@gmail.com>
+Date:   Fri Mar 3 05:26:15 2017 +0900
+
+    Update lab-04-2-multi_variable_matmul_linear_regression.py (#29)
+    
+    to avoid ineffective operation when the loop works.
+
+[33mcommit cb70ec8a529110359fc5fef13fc7bbd19b1d325c[m
+Author: Jongmin <jijupax@gmail.com>
+Date:   Fri Mar 3 05:25:17 2017 +0900
+
+    Update lab-04-1-multi_variable_linear_regression.py (#28)
+    
+    to avoid ineffective operation when the loop works.
+
+[33mcommit aa66e8f6b2e1f2c025214e0fa4eb338eeba153f8[m
+Author: Jongmin <jijupax@gmail.com>
+Date:   Fri Mar 3 03:56:04 2017 +0900
+
+    Update lab-13-3-mnist_save_restore.py
+    
+    to do annotation "import matplotlib.pyplot as plt" code.
+    modified an annotation for describing this file on line 1.
+    to erase useless tags on tf.variable_scope() lines.
+    modified "Savor -> Saver" on line 113.
+
+[33mcommit 990cd0ae9e7b325940e93974e7f38655e8056a40[m
+Author: Seung Hyun Jeon <shtowever@gmail.com>
+Date:   Thu Mar 2 16:24:40 2017 +0900
+
+    change comment cost -> cost/loss (#26)
+    
+    * Let's fix travis
+    
+            cost -> cost/loss
+    
+    Revert "cost -> cost/loss"
+    
+    This reverts commit 92a12aaf9080999b9c7bcf7f772c1052712d8603.
+    
+    annotation change cost -> cost/loss
+    
+    * change comment cost -> cost/loss
+
+[33mcommit eef108a637d0c1188940ae30c3f9e579bebdecb9[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Thu Mar 2 05:05:16 2017 +0800
+
+    Let's fix travis
+
+[33mcommit 8a4f977267a4447e03f6244917c3bf74ab959439[m
+Author: Sangwhan "fish" Moon <innodb@gmail.com>
+Date:   Thu Mar 2 05:48:50 2017 +0900
+
+    Minor first pass consistency fixes. (#17)
+    
+    * Ensure data consistency over Keras and TF in 02-1.
+    
+    * Renamed file (flow, not fflow)
+    
+    * Changed X and y to [1, 2, 3]
+
+[33mcommit 2d403c5b290170242f2d8447127e62a1b26632b5[m
+Author: Jin Gyu Chong <jingyu.chong@gmail.com>
+Date:   Wed Mar 1 23:11:36 2017 +1100
+
+    Fix to get the correct next close price (#24)
+    
+    * Fix to get the correct next close price
+    
+    * Fix to get the correct next close price #2
+
+[33mcommit ed00af328023dbf54a649d15265e46d4ac9ce9dc[m
+Author: Mo Kweon <kkweon@gmail.com>
+Date:   Wed Mar 1 03:55:13 2017 -0800
+
+    refactor: softmax (#23)
+    
+    1) Fix softmax cross entropy
+    2) Pretty Print Format
+    3) Fix typo
+
+[33mcommit d854f58008eaec8f006b82a4dd70b4321b3a2b20[m
+Author: Jin Gyu Chong <jingyu.chong@gmail.com>
+Date:   Wed Mar 1 22:26:19 2017 +1100
+
+    Fix to get the correct next close price (#22)
+
+[33mcommit de7647332046defdae2802a00c971386c9cf3418[m
+Author: Mo Kweon <kkweon@gmail.com>
+Date:   Wed Mar 1 02:54:24 2017 -0800
+
+    fix: label and backprop (#21)
+    
+    * hotfix: label and backprop
+    
+    * fix: data label must start from 0
+    
+    tf.one_hot requires Y data labels begin with 0
+
+[33mcommit de5eff14fc511c7d884c168c384653c34a5296d5[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Wed Mar 1 18:39:14 2017 +0800
+
+    Fixed ymal
+
+[33mcommit eaa6e3d2dc6f4ba3b68b13406aae272fd43232a9[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Wed Mar 1 13:53:19 2017 +0800
+
+    Added shape asset
+
+[33mcommit c46c436b02b75c758e919a02df3e07e7c533b006[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Wed Mar 1 13:40:39 2017 +0800
+
+    back prop added
+
+[33mcommit 534a4854b8f1fab04dadebb39ac00626c858ec6c[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Wed Mar 1 13:33:59 2017 +0800
+
+    back prop added
+
+[33mcommit 616d55c8e4e3f0d24bacad824bef24075df4a48f[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Wed Mar 1 13:33:32 2017 +0800
+
+    back prop added
+
+[33mcommit f9ad1715c7b26a7783807b0b08c334f7c8f5d716[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 22:27:19 2017 +0800
+
+    Added backprop using tensorflow
+
+[33mcommit 4fd43830f4a2607a30d7e294f49e083fd4dfe8fe[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 21:03:34 2017 +0800
+
+    gradient example
+
+[33mcommit 7fbe9dbb08fe93a3df6cd0ab53997f39de92d7bd[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 20:57:59 2017 +0800
+
+    PEP8
+
+[33mcommit 1b05d352b581996120a6437aecb8411392715493[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 20:56:58 2017 +0800
+
+    Added char-seq
+
+[33mcommit 9c1433e6ff105046c760cc9682830d52d3dde8a4[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 20:15:59 2017 +0800
+
+    Added tf.gradient
+
+[33mcommit 3a82c43dcc8bab8deb93cf698ed9c966394a2aa9[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 18:33:02 2017 +0800
+
+    Addressed #16
+
+[33mcommit 0df9289572c51f75e16a6a9d9c873c8d0ba28902[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 16:39:16 2017 +0800
+
+    Added travis_wait
+
+[33mcommit e713453d61fe0c7f38fb440b589ef84b4c2bbd4f[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 15:37:59 2017 +0800
+
+    Added travis_wait
+
+[33mcommit c69f235dcc5e38ee3f765e3a5938fd457a9ef728[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 14:53:52 2017 +0800
+
+    Added travis_wait
+
+[33mcommit 44ea6f524ef67695264865c0528fcdc73e77d5fc[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 14:04:25 2017 +0800
+
+    no plot for travis
+
+[33mcommit 3b089fee77072a873223bc4ca4f09f1d81b453bc[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 13:52:04 2017 +0800
+
+    no plot for travis
+
+[33mcommit 1de90beba44d1ad3f6dad5b92362408b5d2ba243[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 13:14:11 2017 +0800
+
+    let's add keras
+
+[33mcommit 6f62609b32691542e868085fbd5ea95f02449b48[m
+Merge: a87c1c8 ba4efed
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 12:53:33 2017 +0800
+
+    Merge branch 'master' of github.com:hunkim/DeepLearningZeroToAll
+
+[33mcommit a87c1c88b43d6704dce073cde5a8b28f906add30[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 12:53:23 2017 +0800
+
+    let's add keras
+
+[33mcommit ba4efed472994cfda8b098bbeaee0d367a06d1c0[m
+Author: Jenny <jennykang@users.noreply.github.com>
+Date:   Tue Feb 28 12:47:34 2017 +0800
+
+    minor fixes (#14)
+
+[33mcommit 9c4ccbc6c49cb5e6e4843867c9bbe5b8b153ee52[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 12:36:45 2017 +0800
+
+    echo filename for travis
+
+[33mcommit 8fa320cda312fd1022eb3f2b2598e66f928bc165[m
+Author: Chinseok Lee <allieuslee@gmail.com>
+Date:   Tue Feb 28 13:32:11 2017 +0900
+
+    Fixed pep8 style (#13)
+
+[33mcommit e426cfcf50dc7995962ea62408a891e42ef07a2e[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 11:59:56 2017 +0800
+
+    No pltshow
+
+[33mcommit 9d68f66e729863d2189281df04753c5f823c0ad5[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 11:54:06 2017 +0800
+
+    No pltshow
+
+[33mcommit 99d09a7080b06b1e4631f96c8651739d891f215e[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 11:38:06 2017 +0800
+
+    No pltshow
+
+[33mcommit 1a85d427127c871b15b7cc3d299c7569a63a9e7a[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 11:06:46 2017 +0800
+
+    No pltshow
+
+[33mcommit 4a257be2cdcc0d91552d5dd71cc81c0722f79735[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 10:52:10 2017 +0800
+
+    Let Travis run lab code for now
+
+[33mcommit a25900c3dba986f1a051d1576e3f7f2f5cd63079[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 10:40:29 2017 +0800
+
+    Added tebsorboard part
+
+[33mcommit 8593187ec96abde2c9f659393742e5b7cb7176b5[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 08:55:58 2017 +0800
+
+    Added TB and save
+
+[33mcommit 1577a398922f6c789b4d2d1ea70a9a6f308cbda4[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 08:10:22 2017 +0800
+
+    Almost ready for public
+
+[33mcommit d2d0e33c2deb3c63f700240d86405ba8f25a20ae[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 07:39:38 2017 +0800
+
+    Added RNN 01 thanks to Jenny
+
+[33mcommit d8b6f9d42efc88233ae6aba34aaaa71565df77a8[m
+Author: Jenny <jennykang@users.noreply.github.com>
+Date:   Tue Feb 28 06:56:53 2017 +0800
+
+    lab-12-1-rnn (#12)
+    
+    * progress on lab 12
+    
+    * updates on lab-12
+    
+    * added optimizer
+    
+    * updates on lab-12-1
+    
+    * updated lab-12-01
+
+[33mcommit 5fa7e021047de8f90c5de740b41825ae74edc221[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 28 06:55:16 2017 +0800
+
+    Fixed hidden_size thanks to starscreen60
+
+[33mcommit 6dc2e5bdfecc484f6f04220cd88bbea3cd0066b6[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Feb 27 17:12:30 2017 +0800
+
+    format
+
+[33mcommit 065d6f09b6565863e55cc53074cb9ac344a40974[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Feb 27 17:11:36 2017 +0800
+
+    Added LSTM to data prediction
+
+[33mcommit ddc7e95ff4f5b8b77a3229538dac8541bf167bc1[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Feb 27 12:29:22 2017 +0800
+
+    Added images for RNN
+
+[33mcommit 52f9349a2edc14a20ea3360b7e97279343224899[m
+Author: Keon Kim <keon.kim@nyu.edu>
+Date:   Sun Feb 26 23:23:19 2017 -0500
+
+    change optimizer from sgd to rmsprop for keras linear regression (#11)
+
+[33mcommit 523cbf5b67bf53a5522967a776896a91d446553d[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Feb 27 11:41:40 2017 +0800
+
+    Working on RNN 0
+
+[33mcommit 23e7a2b5f8e714348ae446776d719c1ebb87281f[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Feb 27 08:42:05 2017 +0800
+
+    revision to lab 09
+
+[33mcommit e6096ed2628a3bdfbf4d16cc4484b8a9e7ef4a88[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Feb 27 08:29:08 2017 +0800
+
+    revision uptp lab 06
+
+[33mcommit 3a22256a333639d34cf1beede966b1762447efa0[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Feb 27 07:00:53 2017 +0800
+
+    Review upto lab 03
+
+[33mcommit efb956dee247f44c74dc5a575b8791f1621edb25[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 22:54:34 2017 +0800
+
+    Added references
+
+[33mcommit f1feb870a4ebf07db1d88a1f6b5dbd8d5f69c7b2[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 22:43:35 2017 +0800
+
+    Added references
+
+[33mcommit 6dab77c6786596c0e8b037e1a86f667caab82378[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 22:42:39 2017 +0800
+
+    Added references
+
+[33mcommit 1a9a1a93b45ce2b75187042ac0ec304a8ffc01fb[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 22:39:06 2017 +0800
+
+    Added more coments for CNN
+
+[33mcommit 95bb1003c464f61d627de8bb79d400fe3d4ecf52[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 22:19:55 2017 +0800
+
+    Added pydot
+
+[33mcommit 75f00cee926ac024a1d30d985d40b15e557fd182[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 22:08:29 2017 +0800
+
+    Added pictures to explain CNN
+
+[33mcommit 046cfacff7a3133fd08ace3f984451953472dd91[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 21:15:06 2017 +0800
+
+    No plot for Keras
+
+[33mcommit 68fe4733734e3c97e40fc0b7c5bc04a3795a5f71[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 20:54:54 2017 +0800
+
+    Fixed seveal Keras errors
+
+[33mcommit 6729552c66a49efd74ddf9aae316785fbc6682ce[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 20:43:14 2017 +0800
+
+    dev/null for travis
+
+[33mcommit eb37e4c29f553e52d2574f991cd212f4e1d019ca[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 19:52:58 2017 +0800
+
+    Added travis
+
+[33mcommit 62453fbdb1b5c91bdd617fa8e170e4a027a82e80[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 19:24:41 2017 +0800
+
+    comment plt out
+
+[33mcommit 0674bee1bdc736ad2955b6a97b948ba7274f8a36[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 19:12:12 2017 +0800
+
+    plt no show
+
+[33mcommit b7d58bd125d929fc99b1f99156351e90a7486b1c[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 19:03:14 2017 +0800
+
+    0.9938
+
+[33mcommit 33ee7ad904b59688c3e0cd0fef5408add6081001[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 18:50:19 2017 +0800
+
+    add egg
+
+[33mcommit 0b25197dc85956f2d8ef6b3b0bd36ef8977b0877[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 18:38:56 2017 +0800
+
+    updated travis
+
+[33mcommit 3d4e981f3e5fd89d3243733b5fdea2d945e41579[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 18:27:34 2017 +0800
+
+    Fixed missing feed_dict and ad .travis
+
+[33mcommit 93cd9b272bed9885c54a45dea5497815381c060f[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 18:25:05 2017 +0800
+
+    Fixed missing feed_dict and ad .travis
+
+[33mcommit 1a0e08cd924f7d3c830e1c49401e58e9b51aaf5a[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 18:24:50 2017 +0800
+
+    Fixed missing feed_dict and ad .travis
+
+[33mcommit 1b9fe59f59b5a94ec2f37399e24ba34b0f414110[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 14:58:19 2017 +0800
+
+    Added scope
+
+[33mcommit bd88a0ce4744518972d0e043d9151388474310af[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 14:46:40 2017 +0800
+
+    Updated CNN basic
+
+[33mcommit e1359c55583c0689f28b80daf8d1d9d2f94f6858[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 14:41:56 2017 +0800
+
+    Updated CNN basic
+
+[33mcommit e912cf5b30fd463a92da88f8692d229136d76d6e[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 14:26:47 2017 +0800
+
+    Updated CNN basic
+
+[33mcommit e03c8e2a74947ea0c65d1634bf5ff8f0205acb17[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 11:50:28 2017 +0800
+
+    Added CNN and results
+
+[33mcommit f7e89248241436d3359b04ec925a1e906d599c2f[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 10:25:01 2017 +0800
+
+    Added deep and dropout
+
+[33mcommit a6cdf90da6e8201c110c08950e83f70055e96cc0[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 10:04:40 2017 +0800
+
+    Added mnist examples
+
+[33mcommit f5609c6692324dd6415c73df705febb799678cb2[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 07:37:46 2017 +0800
+
+    autopep8
+
+[33mcommit a46eabe75a60cb5d670a6da39617f3fb09e8fe97[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sun Feb 26 07:21:28 2017 +0800
+
+    Update data to sync with slides
+
+[33mcommit 03b98104bb16230341185c2d3d88dc38763582f4[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sat Feb 25 22:56:15 2017 +0800
+
+    mnist refactoring
+
+[33mcommit 5e81d9e3c088c4704c32550e4cb9f358d1f47cf1[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sat Feb 25 22:35:42 2017 +0800
+
+    variable refactorings
+
+[33mcommit 06c4cc75d041701b5643716edd97da44908e884e[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sat Feb 25 22:21:18 2017 +0800
+
+    init refactorings
+
+[33mcommit 4e8661cca464d10cc601c8fdb7c15fb200eb02cd[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sat Feb 25 22:01:10 2017 +0800
+
+    Added k softmax zoo
+
+[33mcommit f6ef5125980562a790599e7b3e1229bdadcaf751[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sat Feb 25 21:34:13 2017 +0800
+
+    Added
+
+[33mcommit a8187fb32530ce3daa05ae1a9c586d248d0a38ec[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sat Feb 25 20:56:02 2017 +0800
+
+    Added datasets
+
+[33mcommit dc914426e93ad7ff714db22323e14af94781d7de[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sat Feb 25 18:38:14 2017 +0800
+
+    Added multi layer LSTM
+
+[33mcommit 673ee07c6ce3ee45d035f1c01825e9b6555a4b86[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sat Feb 25 18:23:28 2017 +0800
+
+    Fixed softmax
+
+[33mcommit 5f673e69ee2fca5b78b39b8a45d9c101ab366a8b[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sat Feb 25 16:23:19 2017 +0800
+
+    autopep8
+
+[33mcommit 3dbb86cc828ab3872efac4c15d66b8e2869a07d7[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sat Feb 25 16:16:39 2017 +0800
+
+    updated notes
+
+[33mcommit 3bb22c62e75dda5498c6cc457743db4fe3be1052[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sat Feb 25 11:48:08 2017 +0800
+
+    Minor update (#8)
+    
+    * Fixed char
+    
+    * basic s2s done
+    
+    * fixed condition
+    
+    * Added .gitignore
+    
+    * Let's use np when we need
+    
+    * Let's use np when we need
+    
+    * Added file reading
+    
+    * Added
+    
+    * Added RNN basics
+    
+    * Added RNN basics
+    
+    * Added notebook
+    
+    * Added RNN bascis
+    
+    * renamed files
+    
+    * Added CNN basics
+    
+    * Added CNN
+    
+    * Added klab xor
+
+[33mcommit 67d12a84467d34926fb6d44c6207c8ee1b9bd3d1[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sat Feb 25 09:59:46 2017 +0800
+
+    Minor update (#7)
+    
+    * Fixed char
+    
+    * basic s2s done
+    
+    * fixed condition
+    
+    * Added .gitignore
+    
+    * Let's use np when we need
+    
+    * Let's use np when we need
+    
+    * Added file reading
+    
+    * Added
+    
+    * Added RNN basics
+    
+    * Added RNN basics
+    
+    * Added notebook
+    
+    * Added RNN bascis
+    
+    * renamed files
+    
+    * Added CNN basics
+
+[33mcommit e99fa9cb0656eea597f9de51247a97e113883939[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Sat Feb 25 08:45:50 2017 +0800
+
+    RNN (#6)
+    
+    * Fixed char
+    
+    * basic s2s done
+    
+    * fixed condition
+    
+    * Added .gitignore
+    
+    * Let's use np when we need
+    
+    * Let's use np when we need
+    
+    * Added file reading
+    
+    * Added
+    
+    * Added RNN basics
+    
+    * Added RNN basics
+    
+    * Added notebook
+
+[33mcommit ae789c65969a0e76c6428b7b57e552ea9df6e6b3[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Fri Feb 24 21:04:40 2017 +0800
+
+    Minor update (#5)
+    
+    * Fixed char
+    
+    * basic s2s done
+    
+    * fixed condition
+    
+    * Added .gitignore
+    
+    * Let's use np when we need
+    
+    * Let's use np when we need
+    
+    * Added file reading
+
+[33mcommit a75a82dfb6099355890ec2af40b0fd86dc2ea071[m
+Author: Jenny Kang <jennykang95@gmail.com>
+Date:   Fri Feb 24 14:50:25 2017 +0800
+
+    added lab-09-1
+
+[33mcommit 751661a5dd5164e2bcbb6890c3dbbad5712ebded[m
+Author: Jenny Kang <jennykang95@gmail.com>
+Date:   Thu Feb 23 20:54:10 2017 +0800
+
+    added accuracy to lab-07-2
+
+[33mcommit b88d131f19a39ad8185c49fcacc13445ccaa3b2d[m
+Author: Jenny Kang <jennykang95@gmail.com>
+Date:   Thu Feb 23 20:39:03 2017 +0800
+
+    added lab-07-2
+
+[33mcommit 10ba25628f7f9d44542919d27ec6ca907bdd130a[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Thu Feb 23 15:48:01 2017 +0800
+
+    Fixed char (#4)
+    
+    * Fixed char
+    
+    * basic s2s done
+
+[33mcommit f0b2a01a0dbf9069facbcdcabe1ce4608ab0ee4c[m
+Author: Jenny Kang <jennykang95@gmail.com>
+Date:   Thu Feb 23 14:19:01 2017 +0800
+
+    updated args for tf.reduce_sum
+
+[33mcommit 506551e984ae3ce3cbc9d4009e9ab93088aa7021[m
+Author: Jenny Kang <jennykang95@gmail.com>
+Date:   Thu Feb 23 13:54:47 2017 +0800
+
+    syntax fixes
+
+[33mcommit a3b32fd12e258a21c3617ff60d85acbdc3c84dab[m
+Author: Jenny Kang <jennykang95@gmail.com>
+Date:   Thu Feb 23 13:47:48 2017 +0800
+
+    added lab-07-1
+
+[33mcommit 8ba2b1b9a812f59adc639256aed57400189463ed[m
+Author: Jenny Kang <jennykang95@gmail.com>
+Date:   Thu Feb 23 13:40:13 2017 +0800
+
+    added lab-06
+
+[33mcommit 96ee3addc0f64646b7276216323149a466669178[m
+Merge: 600256b 5481be1
+Author: Jenny <jennykang@users.noreply.github.com>
+Date:   Thu Feb 23 13:08:47 2017 +0800
+
+    Merge pull request #3 from hunkim/minor_update
+    
+    Added RNN
+
+[33mcommit 600256b723489425a303b2a184264c1c8f6446f9[m
+Author: Jenny Kang <jennykang95@gmail.com>
+Date:   Thu Feb 23 13:07:16 2017 +0800
+
+    added lab-05 and fixed syntax
+
+[33mcommit 5481be1e9b338456c8d5390dfabf9881fa50ae97[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Thu Feb 23 11:25:25 2017 +0800
+
+    Added evaluation
+
+[33mcommit afc6218169997c1a2ec8eb70705f015e3500ea6a[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Thu Feb 23 09:23:11 2017 +0800
+
+    Added stock linear fix
+
+[33mcommit 81de1fe0e78ec787f16f48d2baf186f0a887033d[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Thu Feb 23 09:18:12 2017 +0800
+
+    Added stock linear
+
+[33mcommit a681b97dc74a9fc7d540ea9a85f31bfbfbe2678e[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Thu Feb 23 08:58:58 2017 +0800
+
+    Added stock
+
+[33mcommit 2cee2ad1ea2657c4d5c877b94b69a62c12dc937e[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Thu Feb 23 06:22:18 2017 +0800
+
+    Added RNN
+
+[33mcommit 9c119b6f5f406a080cd20f6e462a9285fe8a1f64[m
+Author: Jenny Kang <jennykang95@gmail.com>
+Date:   Wed Feb 22 17:50:26 2017 +0800
+
+    fixed lab-04-2
+
+[33mcommit e2da620f43b64d1d4b36858d37d7a3f56717c480[m
+Merge: 8a36733 117fabf
+Author: Jenny <jennykang@users.noreply.github.com>
+Date:   Wed Feb 22 14:03:04 2017 +0800
+
+    Merge pull request #2 from hunkim/minor_update
+    
+    Added data.csv and tests
+
+[33mcommit 117fabf759ff54da36cad9b7a0ba5bc5012d3600[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Wed Feb 22 13:24:21 2017 +0800
+
+    Added data.csv
+
+[33mcommit 8a3673398bde1944839c52f57e31c77293741c59[m
+Merge: 16823c1 97a7685
+Author: Jenny Kang <jennykang@users.noreply.github.com>
+Date:   Wed Feb 22 12:07:20 2017 +0800
+
+    Merge pull request #1 from hunkim/minor_update
+    
+    Minor update
+
+[33mcommit 16823c1e5240290fdafed898426331b9f2ae5362[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Wed Feb 22 09:52:52 2017 +0800
+
+    Update README.md
+
+[33mcommit 97a7685404c6e782e66c1fee4b193529426d6bfe[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Wed Feb 22 08:16:23 2017 +0800
+
+    Added feed
+
+[33mcommit 9193e4719bd4ee15b951e9ceceef2914da5bdbbe[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Wed Feb 22 07:38:26 2017 +0800
+
+    Minor fixes
+
+[33mcommit 978adaa33d99ac8bd9474707911aded43c3a8cb3[m
+Merge: f71f3b3 544ede4
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 21 16:59:58 2017 +0800
+
+    Merge branch 'master' of github.com:hunkim/DeepLearningZeroToAll
+
+[33mcommit 544ede4c68144e25dda23afe3d72427118f67171[m
+Author: Jenny Kang <jennykang95@gmail.com>
+Date:   Tue Feb 21 15:55:22 2017 +0800
+
+    added lab-04-2
+
+[33mcommit f88888b52ec11465cee4e7deca1be49c17440795[m
+Author: Jenny Kang <jennykang95@gmail.com>
+Date:   Tue Feb 21 15:07:21 2017 +0800
+
+    added more args, lab3 and lab4
+
+[33mcommit f71f3b396d0d1982ce274f3a953623ad5b4c407d[m
+Merge: c7c1907 106e8bc
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 21 14:05:32 2017 +0800
+
+    Merge branch 'master' of github.com:hunkim/DeepLearningZeroToAll
+
+[33mcommit 106e8bc4c5dd13479b678be77c392c35daa67a72[m
+Author: Jenny Kang <jennykang95@gmail.com>
+Date:   Tue Feb 21 13:04:44 2017 +0800
+
+    updated syntax consistency and lab3
+
+[33mcommit c7c1907386d2aa8ef964ee4a6ae510f308ac3a38[m
+Merge: 8c28949 453c5d4
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 21 10:33:31 2017 +0800
+
+    Merge branch 'master' of github.com:hunkim/DeepLearningZeroToAll
+
+[33mcommit 8c28949edf2c26fe38e505fe21f12f2caa89305b[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Tue Feb 21 08:00:06 2017 +0800
+
+    Let's use csv
+
+[33mcommit 453c5d487ec1f3989c89132cd3cf27f839767017[m
+Author: Jenny Kang <jennykang95@gmail.com>
+Date:   Mon Feb 20 23:47:43 2017 +0800
+
+    renamed files
+
+[33mcommit a53cd1749d2031e045d29cd95e8e6a4d348d2b5e[m
+Merge: 7e12395 1b2c650
+Author: Jenny Kang <jennykang95@gmail.com>
+Date:   Mon Feb 20 23:44:19 2017 +0800
+
+    Merge branch 'master' of https://github.com/hunkim/DeepLearningZeroToAll
+
+[33mcommit 7e123958ed7b7fa989c279700a07981e4bf71101[m
+Author: Jenny Kang <jennykang95@gmail.com>
+Date:   Mon Feb 20 23:43:22 2017 +0800
+
+    first example of lab3
+
+[33mcommit c82f0fd1ff4447cb4eeee6907ff39844e6fee428[m
+Author: Jenny Kang <jennykang95@gmail.com>
+Date:   Mon Feb 20 23:30:58 2017 +0800
+
+    added more args to random_uniform
+
+[33mcommit 1b2c650e75e0f1196106acf6c2d065861bcc7b30[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Feb 20 22:05:21 2017 +0800
+
+    Added lab02 from tensorflow.org
+
+[33mcommit 7b3f99989d9021c91bae7c96a1edaafd0bc92f16[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Feb 20 19:45:45 2017 +0800
+
+    Added a few more
+
+[33mcommit 316a93f7cb320533ffb6a4d45dff8e147a06c602[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Feb 20 18:55:05 2017 +0800
+
+    Added more labs
+
+[33mcommit 574cb943df24403561fbd2c242a35ca82ac6e54f[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Feb 20 17:26:53 2017 +0800
+
+    Added auto indent
+
+[33mcommit 29f2fbec89fd4f849f99259b9a1abcb44bb7cdcf[m
+Author: Sung Kim <hunkim@gmail.com>
+Date:   Mon Feb 20 16:57:27 2017 +0800
+
+    Added klab
+
+[33mcommit 615e151aef91c17725a7bec64ec018b7e9e4a8a4[m
+Author: Jenny Kang <jennykang95@gmail.com>
+Date:   Mon Feb 20 16:53:23 2017 +0800
+
+    added lab2
