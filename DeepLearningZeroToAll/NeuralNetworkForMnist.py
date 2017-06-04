@@ -56,7 +56,7 @@ with tf.Session() as sess:
                                                                     # batch_size 가 100이므로 전체 데이타에서 100개씩 뽑아서 트레이닝을 함
             # Run optimization op (backprop) and cost op (to get loss value)
             _, c = sess.run([optimizer, cost], feed_dict={X: batch_xs, Y: batch_ys})
-
+            # _, 는 버리겠다는 의미이다. cost 함수의 최소값을 찾아내고 필요없는 optimizer 의 값은 버리는 것 같다. 근데 optimizer 를 실행해도 cost가 자동실행되는거 아닌가
             # 분할해서 구동하기 때문에 cost를 계속해서 누적시킨다. 전체 중의 일부에 대한 비용.
             avg_cost += c / total_batch
         # Display logs per epoch step. display_step이 1이기 때문에 if는 필요없다.
